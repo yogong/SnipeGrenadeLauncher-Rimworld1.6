@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Snipe Grenade Launcher</name>
-  <author>YourName</author>
-  <packageId>YourName.snipegrenadelauncher</packageId>
+  <author>yogong</author>
+  <packageId>yogong.snipegrenadelauncher</packageId>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
