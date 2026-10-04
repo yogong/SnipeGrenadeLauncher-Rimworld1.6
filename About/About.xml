@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Snipe Grenade Launcher</name>
+  <author>yogong</author>
+  <packageId>yogong.snipegrenadelauncher</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Adds the Snipe Grenade Launcher, a powerful long-range explosive weapon craftable at a fabrication bench.</description>
+</ModMetaData>
