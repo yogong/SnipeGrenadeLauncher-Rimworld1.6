@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ResearchProjectDefs>
-<ResearchProjectDef>
-  <defName>Research_SnipeGrenade</defName>
-  <label>Snipe Grenade Tech</label>
-  <description>Unlocks crafting of the sniper grenade launcher.</description>
-  <baseCost>1200</baseCost>
-  <techLevel>Industrial</techLevel>
-  <prerequisites>
-    <li>Grenades</li>
-  </prerequisites>
-</ResearchProjectDef>
-</ResearchProjectDefs>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Research_SnipeGrenade</defName>
+    <label>Snipe Grenade Launcher</label>
+    <description>Unlocks the crafting of the Snipe Grenade Launcher.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Gunsmithing</li>
+      <li>Mortars</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>
