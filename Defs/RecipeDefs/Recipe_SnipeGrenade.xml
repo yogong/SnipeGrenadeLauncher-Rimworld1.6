@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RecipeDefs>
-<RecipeDef>
-  <defName>MakeSnipeGrenadeLauncher</defName>
-  <label>Make sniper grenade launcher</label>
-  <description>Craft sniper grenade launcher at fabrication bench</description>
-  <thingDef>SnipeGrenadeLauncher</thingDef>
-  <ingredients>
-    <li>
-      <thing>Steel</thing>
-      <count>80</count>
-    </li>
-    <li>
-      <thing>ComponentIndustrial</thing>
-      <count>6</count>
-    </li>
-  </ingredients>
-  <workAmount>2500</workAmount>
-  <skillRequirements>
-    <Crafting>6</Crafting>
-  </skillRequirements>
-  <researchPrerequisite>Research_SnipeGrenade</researchPrerequisite>
-  <recipeUsers>
-    <li>FabricationBench</li>
-  </recipeUsers>
-</RecipeDef>
-</RecipeDefs>
+<Defs>
+  <RecipeDef>
+    <defName>MakeSnipeGrenadeLauncher</defName>
+    <label>Make Snipe Grenade Launcher</label>
+    <description>Craft the Snipe Grenade Launcher at a fabrication bench.</description>
+    <workAmount>2500</workAmount>
+    <researchPrerequisite>Research_SnipeGrenade</researchPrerequisite>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <products>
+      <li>
+        <thingDef>SnipeGrenadeLauncher</thingDef>
+        <count>1</count>
+      </li>
+    </products>
+    <ingredients>
+      <li>
+        <thingDef>Steel</thingDef>
+        <count>80</count>
+      </li>
+      <li>
+        <thingDef>ComponentIndustrial</thingDef>
+        <count>6</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+</Defs>
