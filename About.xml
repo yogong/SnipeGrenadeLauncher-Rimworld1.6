@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Snipe Grenade Launcher</name>
-  <author>yourname</author>
-  <packageId>yourname.snipegrenadelauncher</packageId>
+  <author>你的名字</author>
+  <packageId>你的名字.snipegrenadelauncher</packageId>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>Snipe grenade launcher mod for RimWorld 1.6</description>
+  <description>添加狙击榴弹枪，可在装配台制造。</description>
 </ModMetaData>
