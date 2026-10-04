@@ -5,6 +5,7 @@
     <label>Snipe Grenade Launcher</label>
     <description>A powerful long-range grenade launcher.</description>
     <category>Item</category>
+    <techLevel>Industrial</techLevel>
     <thingCategories>
       <li>Weapons</li>
     </thingCategories>
@@ -25,6 +26,7 @@
         <range>28</range>
         <minRange>6</minRange>
         <warmupTime>0.8</warmupTime>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <accuracyTouch>0.75</accuracyTouch>
         <accuracyShort>0.85</accuracyShort>
         <accuracyMedium>0.9</accuracyMedium>
