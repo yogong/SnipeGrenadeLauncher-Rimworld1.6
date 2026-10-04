@@ -3,6 +3,8 @@
   <name>Snipe Grenade Launcher</name>
   <author>yourname</author>
   <packageId>yourname.snipegrenadelauncher</packageId>
-  <targetVersion>1.6</targetVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
   <description>Snipe grenade launcher for RimWorld 1.6</description>
 </ModMetaData>
