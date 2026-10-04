@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>snipegrenade.launcher</packageId>
+  <name>狙击榴弹发射器</name>
+  <author>自制</author>
+  <description>增加武器狙击榴弹发射器，发射35mm高爆榴弹。需要先研究精确步枪。</description>
+  <targetVersion>1.6</targetVersion>
+</ModMetaData>
