@@ -4,6 +4,10 @@
     <defName>Bullet_Grenade</defName>
     <label>Snipe Grenade</label>
     <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <projectile>
       <damageDef>Bomb</damageDef>
       <damageAmountBase>30</damageAmountBase>
