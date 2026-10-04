@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Grenade</defName>
+    <label>Snipe Grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <explosionRadius>1.9</explosionRadius>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+</Defs>
