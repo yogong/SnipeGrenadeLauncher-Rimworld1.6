@@ -4,7 +4,7 @@
     <defName>SnipeGrenadeLauncher</defName>
     <label>Snipe Grenade Launcher</label>
     <description>A powerful long-range grenade launcher.</description>
-    <category>Weapon</category>
+    <category>Item</category>
     <thingCategories>
       <li>Weapons</li>
     </thingCategories>
