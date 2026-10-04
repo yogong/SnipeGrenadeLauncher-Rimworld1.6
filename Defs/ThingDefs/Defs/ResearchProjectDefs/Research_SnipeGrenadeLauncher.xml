@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>SnipeGrenadeLauncherTech</defName>
+    <label>狙击榴弹发射器</label>
+    <description>解锁狙击榴弹发射器与榴弹弹药的制作</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <discoveredBy>
+      <li>DeepDrill</li>
+    </discoveredBy>
+  </ResearchProjectDef>
+</Defs>
