@@ -1,7 +1,3 @@
-xml
-复制
-下载
-运行
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseWeapon">
