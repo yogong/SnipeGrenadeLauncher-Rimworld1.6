@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="SnipeGrenadeLauncher" Class="ThingDef">
+    <thingClass>ThingWithComps</thingClass>
+    <label>狙击榴弹发射器</label>
+    <description>远距离发射榴弹，命中后大范围爆炸，兼顾狙击射程与范围杀伤。</description>
+    <category>Weapon</category>
+    <graphicData>
+      <texPath>Things/Weapon/SnipeGrenadeLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>4.2</Mass>
+      <MarketValue>750</MarketValue>
+      <WorkToMake>12000</WorkToMake>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Equipable">
+        <hitPointPercent>0.85</hitPointPercent>
+      </li>
+      <li Class="CompProperties_Reloadable">
+        <ammoUser>true</ammoUser>
+      </li>
+    </comps>
+    <verbs>
+      <li Class="VerbProperties">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>SnipeGrenadeShell</defaultProjectile>
+        <range>38</range>
+        <warmupTime>2.4</warmupTime>
+        <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <reloadTime>140</reloadTime>
+        <magazineSize>1</magazineSize>
+        <projectile>
+          <projectile>
+            <thingDef>SnipeGrenadeShell</thingDef>
+          </projectile>
+        </projectile>
+      </li>
+    </verbs>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <soundShot>Gunshot_Rifle</soundShot>
+    <techLevel>Spacer</techLevel>
+    <recipes>
+      <li>Recipe_SnipeGrenadeLauncher</li>
+    </recipes>
+  </ThingDef>
+</Defs>
