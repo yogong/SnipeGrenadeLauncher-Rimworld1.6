@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>狙击榴弹发射器</name>
+  <author>自定义</author>
+  <targetVersion>1.6</targetVersion>
+  <description>增加一把远距离狙击榴弹发射器，范围爆炸伤害。</description>
+  <packageId>custom.snipegrenadelauncher.rimworld16</packageId>
+  <version>1.0.0</version>
+</ModMetaData>
