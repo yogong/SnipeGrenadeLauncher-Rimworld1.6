@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="SnipeGrenadeShell" Class="ThingDef">
+    <thingClass>Projectile</thingClass>
+    <label>35mm狙击榴弹</label>
+    <description>适配狙击榴弹发射器的35毫米高爆榴弹。命中目标后起爆，产生爆炸。</description>
+    <category>Projectile</category>
+    <graphicData>
+      <texPath>Things/Projectile/Grenade35mm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>0.12</Mass>
+      <MarketValue>28</MarketValue>
+      <WorkToMake>320</WorkToMake>
+    </statBases>
+    <projectile>
+      <damageDef>Explosion</damageDef>
+      <damageAmountBase>22</damageAmountBase>
+      <explosionRadius>2.8</explosionRadius>
+      <explosionDamageFalloff>true</explosionDamageFalloff>
+      <explosionSound>Explosion_Grenade</explosionSound>
+      <isExplosive>true</isExplosive>
+      <canHitNonTargetPawns>true</canHitNonTargetPawns>
+    </projectile>
+    <soundInteract>Interact_MetalObject</soundInteract>
+    <recipes>
+      <li>Recipe_SnipeGrenadeShell</li>
+    </recipes>
+    <stackLimit>25</stackLimit>
+  </ThingDef>
+</Defs>
