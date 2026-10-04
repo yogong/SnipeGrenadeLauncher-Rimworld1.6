@@ -20,11 +20,19 @@
     </products>
     <ingredients>
       <li>
-        <thingDef>Steel</thingDef>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
         <count>80</count>
       </li>
       <li>
-        <thingDef>ComponentIndustrial</thingDef>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
         <count>6</count>
       </li>
     </ingredients>
