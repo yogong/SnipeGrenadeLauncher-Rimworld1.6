@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<RecipeDef>
+  <defName>MakeSnipeGrenadeLauncher</defName>
+  <label>Make sniper grenade launcher</label>
+  <description>Craft sniper grenade launcher at fabrication bench</description>
+  <producedThingDef>SnipeGrenadeLauncher</producedThingDef>
+  <ingredients>
+    <li>
+      <thingDef>Steel</thingDef>
+      <count>80</count>
+    </li>
+    <li>
+      <thingDef>ComponentIndustrial</thingDef>
+      <count>6</count>
+    </li>
+  </ingredients>
+  <workSpeed>1</workSpeed>
+  <workAmount>2500</workAmount>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <researchPrerequisite>Research_SnipeGrenade</researchPrerequisite>
+  <recipeUsers>
+    <li>FabricationBench</li>
+  </recipeUsers>
+</RecipeDef>
+</Defs>
