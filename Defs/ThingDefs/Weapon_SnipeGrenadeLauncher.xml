@@ -11,6 +11,27 @@
     </thingCategories>
     <stackLimit>1</stackLimit>
 
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.15</armorPenetration>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.15</armorPenetration>
+      </li>
+    </tools>
+
     <statBases>
       <Mass>4.2</Mass>
       <MarketValue>850</MarketValue>
@@ -21,35 +42,12 @@
       <AccuracyLong>0.8</AccuracyLong>
     </statBases>
 
-    <!-- 近战属性 -->
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2.0</cooldownTime>
-      </li>
-<li>
-  <label>barrel</label>
-  <capacities>
-    <li>Blunt</li>
-  </capacities>
-  <power>12</power>
-  <cooldownTime>2.0</cooldownTime>   <!-- 改成 cooldownTime -->
-  <armorPenetration>0.15</armorPenetration>
-</li>      
-    </tools>
-
-    <!-- 贴图，并放大显示 -->
     <graphicData>
       <texPath>Things/Item/Weapon/SnipeGrenadeLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5,1.5</drawSize>
     </graphicData>
 
-    <!-- 发射配置 -->
     <verbs>
       <li>
         <verbClass>Verb_LaunchProjectile</verbClass>
