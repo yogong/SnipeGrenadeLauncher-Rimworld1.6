@@ -19,9 +19,6 @@
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.9</AccuracyMedium>
       <AccuracyLong>0.8</AccuracyLong>
-      <DPS>18</DPS>
-      <StoppingPower>3.0</StoppingPower>
-      <ArmorPenetration>0.14</ArmorPenetration>
     </statBases>
 
     <!-- 近战属性 -->
@@ -32,7 +29,7 @@
           <li>Blunt</li>
         </capacities>
         <power>12</power>
-        <cooldown>2.0</cooldown>
+        <cooldownTime>2.0</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
