@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_SnipeGrenadeLauncher</defName>
+    <defName>SnipeGrenadeLauncher</defName>
     <label>Snipe Grenade</label>
     <thingClass>Projectile_Explosive</thingClass>
     <graphicData>
