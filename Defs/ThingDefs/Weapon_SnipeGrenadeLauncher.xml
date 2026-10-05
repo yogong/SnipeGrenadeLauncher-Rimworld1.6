@@ -10,16 +10,48 @@
       <li>Weapons</li>
     </thingCategories>
     <stackLimit>1</stackLimit>
+
     <statBases>
       <Mass>4.2</Mass>
       <MarketValue>850</MarketValue>
       <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.9</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <DPS>18</DPS>
+      <StoppingPower>3.0</StoppingPower>
+      <ArmorPenetration>0.14</ArmorPenetration>
     </statBases>
+
+    <!-- 近战属性 -->
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldown>2.0</cooldown>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldown>2.0</cooldown>
+      </li>
+    </tools>
+
+    <!-- 贴图，并放大显示 -->
     <graphicData>
       <texPath>Things/Item/Weapon/SnipeGrenadeLauncher</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5,1.5</drawSize>
     </graphicData>
+
+    <!-- 发射配置 -->
     <verbs>
       <li>
         <verbClass>Verb_LaunchProjectile</verbClass>
