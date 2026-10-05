@@ -1,67 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="BaseWeapon">
-    <defName>SnipeGrenadeLauncher</defName>
-    <label>Snipe Grenade Launcher</label>
-    <description>A powerful long-range grenade launcher.</description>
-    <category>Item</category>
-    <techLevel>Industrial</techLevel>
-    <thingCategories>
-      <li>Weapons</li>
-    </thingCategories>
-    <stackLimit>1</stackLimit>
-    <equipmentType>Primary</equipmentType>
-
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2.0</cooldownTime>
-        <armorPenetration>0.15</armorPenetration>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2.0</cooldownTime>
-        <armorPenetration>0.15</armorPenetration>
-      </li>
-    </tools>
-
-    <statBases>
-      <Mass>4.2</Mass>
-      <MarketValue>850</MarketValue>
-      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
-      <AccuracyTouch>0.75</AccuracyTouch>
-      <AccuracyShort>0.85</AccuracyShort>
-      <AccuracyMedium>0.9</AccuracyMedium>
-      <AccuracyLong>0.8</AccuracyLong>
-    </statBases>
-
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_SnipeGrenadeLauncher</defName>
+    <label>Snipe Grenade</label>
+    <thingClass>Projectile_Explosive</thingClass>
     <graphicData>
-      <texPath>Things/Item/Weapon/SnipeGrenadeLauncher</texPath>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5,1.5</drawSize>
     </graphicData>
-
-    <verbs>
-      <li>
-        <verbClass>Verb_LaunchProjectile</verbClass>
-        <defaultProjectile>Bullet_SnipeGrenadeLauncher</defaultProjectile>
-        <range>28</range>
-        <minRange>6</minRange>
-        <warmupTime>0.8</warmupTime>
-        <forcedMissRadius>1.9</forcedMissRadius>
-        <accuracyTouch>0.75</accuracyTouch>
-        <accuracyShort>0.85</accuracyShort>
-        <accuracyMedium>0.9</accuracyMedium>
-        <accuracyLong>0.8</accuracyLong>
-      </li>
-    </verbs>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <explosionRadius>1.9</explosionRadius>
+      <speed>40</speed>
+    </projectile>
   </ThingDef>
 </Defs>
