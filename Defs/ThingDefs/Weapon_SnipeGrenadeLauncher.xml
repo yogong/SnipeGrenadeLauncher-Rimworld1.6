@@ -52,7 +52,7 @@
     <verbs>
       <li>
         <verbClass>Verb_LaunchProjectile</verbClass>
-        <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+        <defaultProjectile>Bullet_SnipeGrenadeLauncher</defaultProjectile>
         <range>28</range>
         <minRange>6</minRange>
         <warmupTime>0.8</warmupTime>
