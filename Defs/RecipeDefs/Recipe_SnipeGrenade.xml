@@ -3,7 +3,7 @@
   <RecipeDef>
     <defName>MakeSnipeGrenadeLauncher</defName>
     <label>Make Snipe Grenade Launcher</label>
-    <description>Craft the Snipe Grenade Launcher at a fabrication bench.</description>
+    <description>Craft the Snipe Grenade Launcher at a machining table.</description>
     <workAmount>2500</workAmount>
     <researchPrerequisite>Research_SnipeGrenade</researchPrerequisite>
     <recipeUsers>
