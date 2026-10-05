@@ -7,7 +7,7 @@
     <workAmount>2500</workAmount>
     <researchPrerequisite>Research_SnipeGrenade</researchPrerequisite>
     <recipeUsers>
-      <li>MachiningTable</li>
+      <li>TableMachining</li>
     </recipeUsers>
     <skillRequirements>
       <Crafting>6</Crafting>
