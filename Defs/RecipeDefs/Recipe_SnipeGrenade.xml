@@ -15,7 +15,6 @@
     <products>
       <li>
         <thingDef>SnipeGrenadeLauncher</thingDef>
-        <count>1</count>
       </li>
     </products>
     <ingredients>
