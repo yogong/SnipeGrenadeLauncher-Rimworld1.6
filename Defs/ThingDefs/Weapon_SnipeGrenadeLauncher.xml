@@ -10,6 +10,7 @@
       <li>Weapons</li>
     </thingCategories>
     <stackLimit>1</stackLimit>
+    <equipmentType>Primary</equipmentType>
 
     <tools>
       <li>
